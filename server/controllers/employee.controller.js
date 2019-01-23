@@ -15,7 +15,7 @@ employeeCtrl.createEmployee = async (req, res, next) => {
         salary: req.body.salary
     });
     await employee.save();
-    res.json({status: 'Employee created'});
+    res.json({status: 'Employee creado'});
 };
 
 employeeCtrl.getEmployee = async (req, res, next) => {
